@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(325deg, #1E1A3C, #05668D 30%, #28B63A 70%, #FFE1FF 100%);
+    margin: 0;
+}
+
+#game-container {
+    text-align: center;
+}
+
+#score, #timer, #misses {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+#example-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 30px auto;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#icon-bar {
+    display: flex;
+    overflow: hidden;
+    border: 2px solid #333;
+    border-radius: 25px;
+    width: 600px;
+    height: 80px;
+    position: relative;
+    margin-bottom: 30px;
+    background-color: #fff;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#start-button, #pause-button, #restart-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#start-button:hover, #pause-button:hover, #restart-button:hover {
+    background-color: #45a049;
+}
